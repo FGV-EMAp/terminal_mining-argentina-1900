@@ -1,1 +1,1 @@
-find -name "*.txt" -exec cat {} + |  sed 's/ /\n/g' | tr 'A-Z' 'a-z' | tr -d [:punct:] | tr -d [:digit] | tr -d [:blank:] | grep -v '^$' | sort | uniq -c | sort -nr > resposta_ex_5
+find '../Dados/machado' -name "*.txt" -exec cat {} + | iconv -f ISO-8859-1 -t UTF-8 |  sed 's/ /\n/g' | tr 'A-Z' 'a-z' | tr -d [:punct:] | tr -d [:digit:] | grep -v '^$' | sort | uniq -c | sort -nr > resposta_ex_5
