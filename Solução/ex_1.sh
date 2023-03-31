@@ -1,3 +1,5 @@
-var=$(find '../Dados/machado' -name "*.txt" -exec cat {} + | wc -w)
+echo "find '../Dados/machado' -name "*.txt" -exec cat {} + | wc -w"
 
-echo $var > resposta_ex_1.txt
+resposta=$(find '../Dados/machado' -name "*.txt" -exec cat {} + | wc -w)
+
+echo "Palavras: "$resposta > resposta_ex_1.txt
