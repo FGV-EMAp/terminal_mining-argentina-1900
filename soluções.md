@@ -7,4 +7,4 @@ Ao executar cada programa shell (no caso os programas ex_1.sh, ex_2.sh, etc...) 
 É possível executar os arquivos shell usando git Bash ou o CMD no Windows ou o Bash no Linux. Todos os programas estão funcionais no momento.
 
 #### Dúvidas
-Qualquer dúvida pode ser retratada com os criados dos programas: João Gabriel Machado e Gustavo Bianchi da Silva, alunos do 1º período do curso de Ciência de Dados da FGV.
+Qualquer dúvida pode ser retratada com os criadores dos programas: João Gabriel Machado e Gustavo Bianchi da Silva, alunos do 1º período do curso de Ciência de Dados da FGV.
